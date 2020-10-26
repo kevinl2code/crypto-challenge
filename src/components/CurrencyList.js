@@ -8,7 +8,7 @@ import renderCurrencies from '../scripts/renderCurrencies'
 const CurrencyList = () => {
     
     const [currencies, setCurrencies] = useState([])
-    const [page, setPage] = useState(2)
+    const [page, setPage] = useState(1)
     const [pageCount, setPageCount] = useState(1)
  
     useEffect(() => {
